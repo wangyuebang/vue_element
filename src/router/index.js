@@ -4,6 +4,8 @@ import SpFlow from "../views/SpFlow";
 import Index from "../views/Index";
 import AddSpFlow from "../views/AddSpFlow";
 import UpdateSpFlow from "../views/UpdateSpFlow";
+import AppPage from "../views/AppPage";
+import ColorUiTestPage from "../views/ColorUiTestPage";
 
 Vue.use(VueRouter)
 
@@ -31,6 +33,17 @@ Vue.use(VueRouter)
         show:false
       }
     ]
+  },
+  {
+    path: '/appPage',
+    component: AppPage,
+    show:false
+  }
+  ,
+  {
+    path: '/colorUiTestPage',
+    component: ColorUiTestPage,
+    show:false
   }
 ]
 
